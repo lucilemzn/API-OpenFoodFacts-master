@@ -1,0 +1,32 @@
+<header>
+
+  <div class="inner">
+    <h3 class="masthead-brand">
+      <img [src]="getLogoURL()" width="200" />
+    </h3>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="">Home</a>
+      </li>
+      <li class="nav-item" onclick="onProduct()">
+        <a class="nav-link active" routerLink="Products">Search Products</a>
+      </li>
+      <li class="nav-item" onclick="onAllergen()">
+        <a class="nav-link active" routerLink="Allergens">Allergens List</a>
+      </li>
+      <li class="nav-item" onclick="onBrand()">
+        <a class="nav-link active" routerLink="Brands">Brands List</a>
+      </li>
+      <li class="nav-item" onclick="onIngredient()">
+        <a class="nav-link active" routerLink="Ingredients">Ingredients List</a>
+      </li>
+      <li class="nav-item" onclick="onContact()">
+        <a class="nav-link active" routerLink="Contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </div>
+</header>

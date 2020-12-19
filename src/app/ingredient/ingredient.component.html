@@ -1,0 +1,11 @@
+<body>
+  <h3>List of Ingredients</h3>
+
+<section>
+  <h2>Top 10 favourite ingredients in the world</h2>
+
+  <div *ngFor="let item of randomArray">
+    {{item.name.replace('fr:', '')}}
+  </div>
+  </section>
+  </body>

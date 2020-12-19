@@ -1,0 +1,11 @@
+<body>
+<h3>List of allergens</h3>
+
+<section>
+<h2>The 10 allergens that affect the French the most this year</h2>
+
+<div *ngFor="let item of randomArray">
+  {{item.name.replace('fr:', '')}}
+</div>
+</section>
+</body>

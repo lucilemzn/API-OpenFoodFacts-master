@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row justify-content-center">
+  <div class="col align-self-center">
+  <label>Enter your product :</label><input id="name" placeholder="Ex: Milk, ..." type="text">
+  <button type="button" class="btn btn-info" (click)="getProductFromInput(http)">Search</button>
+</div>
+<div class="col align-self-start">
+  <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{searchResult}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

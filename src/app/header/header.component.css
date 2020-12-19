@@ -1,0 +1,28 @@
+header{
+  height:150px;
+  background-color:rgb(250, 250, 250);
+}
+.collapse, .nav, nav{
+  background-color: rgb(250, 250, 250);
+}
+.nav{
+  margin-top:2%;
+
+}
+li{
+  width:150px;
+}
+a{
+  font-size:17px;
+  text-align:center;
+}
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
